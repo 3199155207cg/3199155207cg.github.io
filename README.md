@@ -496,14 +496,14 @@
         <!-- 输入区域 -->
         <div class="form-group">
             <label for="date">📅 输入今天的日期喵~（例：10.26）</label>
-            <input type="text" id="date" placeholder="请输入今日日期" required>
-            <div class="validation-message">请输入有效日期</div>
+            <input type="text" id="date" placeholder="今天几月几号呀？慧慧" required>
+            <div class="validation-message">别忘了填哦！慧</div>
         </div>
 
         <div class="form-group">
-            <label for="name">👤 是小慧！</label>
+            <label for="name">🥰是小慧！</label>
             <input type="text" id="name" placeholder="记得输入小慧喵~" required>
-            <div class="validation-message">请输入姓名</div>
+            <div class="validation-message">在此签名</div>
         </div>
 
         <div class="form-group">
@@ -522,18 +522,18 @@
 
         <div class="form-group">
             <label for="workStart">💼 慧の上班业绩（实收）</label>
-            <input type="number" id="workStart" placeholder="请输入上班时实收业绩" step="0.01" min="0" required>
+            <input type="number" id="workStart" placeholder="输入上班时的实收业绩哟慧慧" step="0.01" min="0" required>
             <div class="validation-message">请输入有效金额</div>
         </div>
 
         <div class="form-group" id="restOutGroup" style="display: none;">
             <label for="restOut">🍰 慧慧可以去休息啦！（去休息业绩）</label>
-            <input type="number" id="restOut" placeholder="请输入去休息时实收业绩" step="0.01" min="0">
+            <input type="number" id="restOut" placeholder="输入去休息时的实收业绩哟慧慧" step="0.01" min="0">
         </div>
 
         <div class="form-group" id="restInGroup" style="display: none;">
             <label for="restIn">🎀 慧慧休息回来啦！我又可以见到慧慧了ovo（休息回来业绩实收）</label>
-            <input type="number" id="restIn" placeholder="请输入休息回来时实收业绩" step="0.01" min="0">
+            <input type="number" id="restIn" placeholder="输入休息回来时的实收业绩哟慧慧" step="0.01" min="0">
         </div>
 
         <div class="form-group">
